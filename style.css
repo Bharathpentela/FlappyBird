@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #70c5ce;
+    font-family: Arial, sans-serif;
+}
+
+#gameCanvas {
+    border: 2px solid #000;
+    background-color: #fff;
+    display: none;
+    width: 80%; /* Adjusted canvas width */
+    max-width: 600px; /* Set maximum canvas width */
+    height: auto; /* Allow canvas height to adjust */
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%; /* Adjusted maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#gameOverModal {
+    display: none;  
+}
+
+#easyButton, #mediumButton, #hardButton, #retryButton {
+    background-color: #f44336;
+}
+
+#easyButton:hover, #mediumButton:hover, #hardButton:hover, #retryButton:hover {
+    background-color: #c62828;
+}
+
+#scoreDisplay, #highScoreDisplay {
+    margin-top: 10px;
+}

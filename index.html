@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="difficultySelection" class="modal">
+        <div class="modal-content">
+            <h2>Select Difficulty Level</h2>
+            <button id="easyButton">Easy</button>
+            <button id="mediumButton">Medium</button>
+            <button id="hardButton">Hard</button>
+        </div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <h2>Game Over!</h2>
+            <p id="scoreDisplay">Score: 0</p>
+            <p id="highScoreDisplay">High Score: 0</p>
+            <button id="retryButton">Retry</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
