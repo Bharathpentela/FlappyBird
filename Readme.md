@@ -36,7 +36,7 @@ You can easily deploy this game online using hosting services like TinyHost or c
 TinyHost allows you to quickly deploy your static websites. Follow these steps:
 1. Go to [TinyHost](https://tiny.host/).
 2. Sign up for an account.
-3. Upload your project files (`index.html`, `style.css`, `script.js`).
+3. Upload your project files (`index.html`, `style.css`, `game.js`).
 4. Your game will be live on a unique URL provided by TinyHost.
 
 ### Converting to a Mobile App with WebIntoApp
